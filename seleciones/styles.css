@@ -1,0 +1,464 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Oswald' 600);
+
+/* CSS Document
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+body {
+
+  width: 100%;
+	margin: 0;
+}
+/*  Principio de a */
+a {
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+
+  color:red; 
+}
+
+/*  fin de a */
+
+/*  navegacion */
+header{
+  background-color: rgb(250,250,250); 
+  width: 100%;
+  margin:auto;
+  overflow: auto;
+
+}
+
+ul{
+
+    list-style: none;
+
+}
+.nav li a{
+  
+
+       float: right;
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 16px 0px;
+    width: 212px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    text-align: center
+
+}
+
+
+.nav li a:hover {
+  text-transform: uppercase;
+  color: orange;
+  font-weight:  bold;
+  display: block;
+  text-decoration: none;
+  
+}
+.nav > li {
+
+  float: right;
+}
+
+.nav ul li a {
+  margin:none;
+   background: green;
+
+}
+.nav ul li a:hover {
+
+   background: gray;
+
+}
+
+.nav li ul {
+
+    padding: 43px 0px 10px 0px;
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    text-align: center;
+   
+}
+.nav li:hover > ul {
+
+    display:block;
+    color:red;
+}
+/*  -----------------fin navegacion-----------------*/
+
+/*  -----------------comienzo de cabecera -----------------*/
+.Cabeza1{
+    width: 100%;
+    height: 675px;
+    background: url(imagen/foto1.jpg);
+}
+
+.Cabeza2{
+    width: 100%;
+    height: 675px;
+    background: url(imagen/foto2.jpg);
+
+}
+.Cabeza3{
+    width: 100%;
+    height: 675px;
+    background: url(imagen/foto.jpg);
+}
+.Cabeza4{
+    width: 100%;
+    height: 675px;
+    background: url(imagen/foto.jpg);
+}
+.Cabeza5{
+    width: 100%;
+    height: 675px;
+    background: url(imagen/foto3.jpg);
+}
+.Cabeza6{
+    width: 100%;
+    height: 675px;
+    background: url(imagen/foto6.jpg);
+}
+.caja {
+	padding: 37px 155px;
+  font-family: 'Montserrat', sans-serif;
+    
+}
+.texto1{
+    font-size: 67pt;
+    text-transform: uppercase;
+    color: white;
+    text-align: right;
+    padding-right: 68px;
+}
+.texto2 {
+  	 font-size: 25pt;
+     text-transform: uppercase;
+     color: white;
+     text-align: right;
+     margin-top: -102px;
+     padding-right: 68px;
+     text-transform: uppercase;
+}
+/*----------fin de cabeza ----------*/
+/* ---------- Comienzo de elemento1  --------*/
+.Texto {
+	    font-size: 12pt;
+      width: 94%;
+}
+.Titulo {
+
+		text-align: left;
+    border-color: blue;
+    font-family: 'Montserrat', sans-serif;
+    margin: -2px 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20pt;
+}
+.caja1 .caja2 .caja3 {
+
+    margin-top: 50px;
+}
+
+/* historia*/
+
+.parrafo{
+
+	  font-size: 12pt;
+    width: 51%;
+    text-align: justify;
+    margin: -2px 16px;
+    font-family: 'Lato', sans-serif;
+}
+.imagen1 {
+
+    width: 600px;
+    height: 500px;
+    float: right;
+    background: black;
+    margin: 15px 6px 42px 7px;
+}
+/* clasificacion*/
+
+.parrafo2{
+  font-size: 12pt;
+    width: 51%;
+    text-align: justify;
+    margin: -2px 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+ .imagen2{
+      width: 593px;
+    height: 492px;
+    float: right;
+    background: black;
+    margin: 44px 70px 0px 0px;
+}
+.caja2 {
+    width: 100%;
+    margin: -81px 0px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+/*------Tipos de botellas y su bocas */ 
+.parrafo3{
+  font-size: 18pt;
+    width: 51%;
+    text-align: justify;
+    margin: -2px 16px;
+    font-family: 'Lato', sans-serif;
+}
+.imagen3 {
+  width: 600px;
+    height: 500px;
+    float: right;
+    background: black;
+    margin: 42px 12px 0px 0px;
+}
+/* ------------Fin de caja -------------*/
+/*---------botones--------------*/
+.botton{ 
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 1em 1.6em;
+  margin-top: 1em;
+  font-size: 20pt;
+  color: #000;
+  border-radius: 40em;
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+  text-align: right;
+}
+.botton1{
+ display: inline-block;
+      margin: 18px 642px;
+   transition: background 0.3s;
+    text-align: right;
+    width: 0px;
+    height: 0px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #0A0A0A;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.botones{
+
+     overflow: hidden;
+}
+.bot1 {
+      
+     font-size: 12pt;
+      width: 73%;
+      text-align: center;
+      margin: -20px 0px 10px;
+      font-family: 'Lato', sans-serif;
+      float: left;
+  }
+
+.bot2 {
+    float: right;
+    font-size: 10pt;
+    width: 95%;
+    text-align: center;
+    margin: -120px 0px -5px;
+    font-family: 'Lato', sans-serif;
+  }
+  /*----------------Fin de boton----------*/
+/* fabricacion*/
+.vidrio{
+	width:100%;
+	background: black;
+	color:white;
+	text-align: center;
+	padding: 0px 9px;
+}
+
+.fabricacio {
+
+   text-align: center;
+}
+.video {
+  width: 100%;
+  overflow: hidden;
+}
+.video1{
+  float: left;
+  margin-left: 37px;
+}
+.video2 {
+  float:right;
+ margin-right: 34px;
+  }
+
+hr.v {
+  width: 10px;
+  height:400px;
+  float: left;
+  background:  red;
+  margin-top: -2px;
+  margin-left: 10px;
+}
+
+/* fin de fabricacioón */
+/*---------- tipos y etiquetas -------------*/
+.descripcion {
+
+    width: 100%;
+    color: black;
+    text-align: center;
+    background: #afb086;
+    box-sizing: border-box;
+    padding: 6px 0px;
+    margin-top: 15px;
+}
+
+.descripcion2 {
+  width: 100%;
+    color: black;
+    text-align: center;
+    background: #afb086;
+    box-sizing: border-box;
+    padding: 6px 0px;
+    margin-top: 101px;
+}
+
+.caja4 {
+  overflow: hidden;
+ 
+  width: 100%
+}
+.imagen4 {
+    background: black;
+    width: 600px;
+    height: 350px;
+    float: right;
+    background: black;
+    margin: 42px 20px;
+}
+.parrafo4 {
+    margin: -2px 16px;
+    font-size: 12pt;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+   
+}
+.Texto1 {    
+    width: 94%; 
+    width: 56%;
+  }
+  .Titulo1 {
+
+    text-align: center;
+    border-color: blue;
+    font-family: 'Montserrat', sans-serif;
+    margin: -2px 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20pt;
+}
+/* flecha derecha y izquierda */
+.flechaslado{
+  width: 100%;
+  margin: 20px 30px 0px 3px;
+
+}
+.back1{
+    font-family: 'Lato';
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+    color: black;
+    background: white;
+    opacity: 0.3;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 38pt;
+  border-radius: 500px;
+}
+.back2{
+    font-family: 'Lato';
+    margin-top: 20px;
+    margin-right: 50px;
+    float: left;
+    color: black;
+    background: white;
+    opacity: 0.3;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 38pt;
+  border-radius: 500px;
+}
+
+/*---Tabla-------*/
+.datagrid table { 
+  border-collapse: collapse; 
+  text-align: center;
+   width: 100%; 
+   margin-right: 9px;
+} 
+.datagrid {
+  font: normal 12px/150% 'Montserrat', sans-serif;
+   background: #fff;
+    overflow: hidden;
+    border: 1px solid #A65B1A;
+     -webkit-border-radius: 10px; 
+     -moz-border-radius: 10px;
+     border-radius: 10px; 
+   }
+     .datagrid table td, .datagrid table th {
+      padding: 11px 9px; 
+    }
+
+     .datagrid table thead th {
+      background:-webkit-gradient (linear, left top, left bottom, color-stop(0.05, #A65B1A), color-stop(1, #7F4614) );
+      background:-moz-linear-gradient( center top, #A65B1A 5%, #7F4614 100% );
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A65B1A', endColorstr='#7F4614');
+      background-color:#A65B1A; 
+      color:#FFFFFF; 
+      font-size: 15px; 
+      font-weight: bold; 
+      border-left: 1px solid #BF691E; } 
+
+      .datagrid table thead th:first-child { 
+        border: none; 
+      }
+
+      .datagrid table tbody td { color: #7F4614; border-left: 1px solid #D9CFB8;font-size: 12px;
+        font-weight: normal; }
+        .datagrid table tbody .alt td { background: #F0E5CC; color: #7F4614; }
+
+        .datagrid table tbody td:first-child { border-left: none; }
+      .datagrid table tbody tr:last-child td { 
+       border-bottom: none;
+      } 
+
+      
+
+  /*----------------Comienzo de footer---------*/
+footer {
+
+  overflow: auto;
+  width: 100%;
+  height: 50px;
+  background: #000000;
+  color:white;
+    text-align: center;
+}
+/*----------------Fin de Footer------------*/

@@ -1,0 +1,951 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:400,600');
+
+body {
+	margin: 0;
+}
+.cabecera{
+  background-color: rgb(250,250,255); 
+  width: 100%;
+  margin:auto;
+  overflow: hidden;
+
+}
+
+.dirección{
+
+  margin: 0px 0px 0px 20px;
+  float: right;
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 25px 0px;
+  overflow: hidden;
+  
+}
+
+
+
+.linea {
+  color: black;
+  font-weight:  bold;
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+}
+.uimage {
+	opacity: 0,6;
+	background-image: url('imagen2/fuego.png');
+	background-position-x: center; 
+	background-position-y: center;
+	background-size: cover;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat; 
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	height: 500px;
+	width: 100%;
+}
+
+.utilidades{
+	padding-top: 300px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Montserrat';
+ 	font-weight: 600;
+ 	color: white;
+ 	font-size: 60pt;
+}
+
+.utxtleft {
+	padding: 30px;
+	column-gap: 60px;
+	column-count: 2;
+	column-width: 400px;
+	float: left;
+	text-align: justify;
+	font-family: 'Lato';
+	font-size: 18pt;
+	height: 275px;
+}
+
+#sano {
+	text-align: center;
+	font-size: 18pt;
+	font-style: italic;
+	color: gray;
+	font-weight: 200;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+
+.banner{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+	margin-top: 330px;
+	background: black;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Lato';
+	font-size: 16pt;
+}
+
+
+.fondouso{
+	background-image: url('imagen2/fondouso.png');
+	background-position-x: center; 
+	background-position-y: center;
+	background-size: cover;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat; 
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	height: 400px;
+}
+
+.uso{
+	text-shadow: 1px 1px 1px #000;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 100px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 18pt;
+	font-weight: 600;
+}
+
+.lista{
+	opacity: 0.8;
+	color: white;
+	float: left;
+	padding-left: 225px;
+	padding-right: 40px;
+	margin-top: 80px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 16pt;
+	width: 400px;
+}
+
+#uno{
+	background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 15px 10px 15px;
+
+}
+
+#dos{
+	background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 15px 10px 15px;
+}
+
+#tres {
+	background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 15px 10px 15px;
+}
+
+.lista2{
+	opacity: 0.8;
+	color: white;
+	display: inline-block;
+	padding-left: 40px;
+	margin-top: 80px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 16pt;
+	width: 400px;
+}
+
+#cuatro {
+	background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 15px 10px 15px;;
+}
+
+#cinco {
+	background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+#seis{
+	background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 15px 10px 15px;
+}
+
+.txt2{
+	margin-top: 100px;
+	padding: 30px;
+	column-gap: 60px;
+	column-count: 2;
+	column-width: 400px;
+	float: left;
+	text-align: justify;
+	font-family: 'Lato';
+	font-size: 18pt;
+	height: 200px;
+}
+
+
+.banner2{
+	margin-top: 325px;
+	text-shadow: 1px 1px 1px #000;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 100px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 18pt;
+	font-weight: 600;
+	height: 80px;
+}
+
+.fondo2{
+	background-image: url('imagen2/fondouso.png');
+	background-position-x: center; 
+	background-position-y: center;
+	background-size: cover;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat; 
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	height: 550px;
+}
+
+.lista3{
+	opacity: 0.8;
+	color: white;
+	float: left;
+	padding-left: 200px;
+	padding-right: 40px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 16pt;
+	width: 400px;
+}
+
+.lista4{
+	opacity: 0.8;
+	color: white;
+	display: inline-block;
+	padding-left: 80px;
+	margin-top: 35px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 16pt;
+	width: 400px;
+}
+
+#l1 {
+background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#l2 {
+background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#l3 {
+background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#l4 {
+background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#l5 {
+background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#l6 {
+background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#l7 {
+background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#l8 {
+background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#l9 {
+background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 8px 8px 10px;
+}
+#l10{
+background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 10px 10px 10px;
+} 
+#l11 {
+background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#l12 {
+	background: black;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+.next{
+  	font-family: 'Lato';
+    margin-top: 300px;
+    margin-right: 50px;
+    float: right;
+    color: black;
+    background: white;
+    opacity: 0.3;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 38pt;
+	border-radius: 500px;
+}
+
+/*Propiedades del Vidrio*/
+
+body{
+	margin: auto;
+}
+
+.pimage {
+	background-image: url('imagen2/propiedades.png');
+	background-position-x: center; 
+	background-position-y: center;
+	background-size: cover;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat; 
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	height: 600px;
+	width: 100%;
+}
+
+.propiedades{
+	padding-top: 300px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Montserrat';
+ 	font-weight: 600;
+ 	color: white;
+ 	font-size: 60pt;
+}
+
+.popticas{
+	text-shadow: 1px 1px 1px #000;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	background: black;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 42pt;
+	font-weight: 600;
+}
+
+
+#trans{
+	float: left;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 2%;
+	padding: 0px 10px 10px 10px;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: 'Lato';
+	font-size: 28pt;
+	width: 25%;
+	height: 50px;
+}
+
+#lucidez{
+	float: left;
+	margin-right: 2%;
+	margin-left: 10px;
+	margin-top: 50px;
+	padding: 10px 10px 10px 10px;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: 'Lato';
+	font-size: 28pt;
+	width: 25%;
+	height: 50px;
+}
+
+#opacidad{
+	float: left;
+	margin-right: 2%;
+	margin-left: 10px;
+	margin-top: 50px;
+	padding: 10px 10px 10px 10px;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: 'Lato';
+	font-size: 28pt;
+	width: 25%;
+	height: 60px;
+}
+
+#tiempo{
+	text-align: center;
+	font-size: 20pt;
+	font-style: italic;
+	color: #ba1;
+	font-weight: 200;
+	margin-top: 20px;
+	padding-bottom: 2px;
+	height: 50px;
+}
+
+h1{
+	background: black;
+	color: white;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 5%;
+	padding: 20px;
+	text-align: justify;
+	font-family: 'Montserrat';
+	font-size: 16pt;
+	font-weight: lighter;
+	height: 50px;
+	width: 60%;
+}
+
+
+
+.pfisicas{
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	background: black;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 42pt;
+	font-weight: 600;
+}
+
+.fisicastxt{
+	margin-top: 10px;
+	padding: 30px;
+	column-gap: 60px;
+	column-count: 2;
+	column-width: 400px;
+	float: left;
+	text-align: justify;
+	font-family: 'Lato';
+	font-size: 18pt;
+	height: 200px;
+}
+
+.fondofisic{
+	background-image: url('imagen2/plomo.png');
+	background-position-x: center; 
+	background-position-y: center;
+	background-size: cover;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat; 
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	margin-top: 300px;
+	height: 500px;
+	width: 100%;
+}
+
+#metodos{
+	text-shadow: 1px 1px 1px #000;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 100px;
+	background: #ba1;
+	opacity: 0.6;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 18pt;
+	font-weight: 600;
+}
+
+#metodlist{
+	opacity: 0.8;
+	color: white;
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 100px;
+	margin-left: 30%;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 18pt;
+	width: 400px;
+}
+
+#m1{
+	background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+#m2{
+	background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#m3{
+	background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#m4{
+	background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+.pmecanicas{
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	background: black;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 42pt;
+	font-weight: 600;
+}
+
+.mecanicastxt{
+	margin-top: 10px;
+	padding: 30px;
+	column-gap: 60px;
+	column-count: 2;
+	column-width: 400px;
+	text-align: justify;
+	font-family: 'Lato';
+	font-size: 18pt;
+	height: 200px;
+}
+
+.ptermicas{
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	background: black;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 42pt;
+	font-weight: 600;
+}
+
+.termicastxt{
+	margin-top: 30px;
+	padding: 30px;
+	column-gap: 60px;
+	column-count: 2;
+	column-width: 400px;
+	text-align: justify;
+	font-family: 'Lato';
+	font-size: 18pt;
+	height: 200px;
+}
+
+.pelectricas{
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	background: black;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 42pt;
+	font-weight: 600;
+}
+
+.electricastxt{
+	margin-top: 20px;
+	padding: 30px;
+	text-align: justify;
+	font-family: 'Lato';
+	font-size: 18pt;
+	height: 200px;
+}
+
+.pquimicas{
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	background: black;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 42pt;
+	font-weight: 600;
+}
+
+.quimicastxt{
+	margin-top: 20px;
+	padding: 30px;
+	text-align: justify;
+	font-family: 'Lato';
+	font-size: 18pt;
+	height: 200px;
+}
+
+.fondoquimicas{
+	background-image: url('imagen2/chemistry.png');
+	background-position-x: center; 
+	background-position-y: center;
+	background-size: cover;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat; 
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	margin-top: 0px;
+	height: 600px;
+	width: 100%;
+}
+
+#destructible{
+	text-shadow: 1px 1px 1px #000;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 100px;
+	margin-top: 30px;
+	background: #ba1;
+	opacity: 0.8;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 20pt;
+	font-weight: 600;
+}
+
+#dslist{
+	opacity: 0.8;
+	color: white;
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 100px;
+	margin-left: 30%;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 18pt;
+	width: 400px;
+}
+
+#d1{
+	background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+#d2{
+	background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#d3{
+	background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+#d4{
+	background: black;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+.back{
+   	font-family: 'Lato';
+    margin-top: 300px;
+    margin-right: 50px;
+    float: right;
+    color: black;
+    background: white;
+    opacity: 0.3;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 38pt;
+	border-radius: 500px;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*RECICLAJE*/
+
+body{
+	width: 100%;
+	margin: auto;
+}
+
+.rimage {
+	background-image: url('imagen2/reciclaje.png');
+	background-position-x: center; 
+	background-position-y: center;
+	background-size: cover;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat; 
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	height: 600px;
+	width: 100%;
+}
+
+.reciclaje{
+	margin-left:  100px;
+	text-shadow: 2px 2px 2px #000;
+	padding-top: 200px;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: 'Montserrat';
+ 	font-weight: 600;
+ 	color: white;
+ 	font-size: 60pt;
+}
+
+.titlerecic{
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	background: #ba1;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 42pt;
+	font-weight: 600;
+}
+
+.rtxt{
+	margin: 20px;
+	padding: 20px;
+	column-gap: 60px;
+	column-count: 2;
+	column-width: 400px;
+	text-align: justify;
+	font-family: 'Lato';
+	font-size: 18pt;
+	height: 290px;
+}
+
+#circular{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#calcin{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.recuperado{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24pt;
+	font-style: italic;
+	color: gray;
+	font-weight: 200;
+	text-transform: uppercase;
+
+}
+
+.media{
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 36pt;
+	font-weight: 600;
+}
+
+.fondovideo{
+	margin-top: 20px;
+	width: 100%;
+	height: 550px;
+
+}
+
+.vrecic{
+	width: 40%;
+	padding: 25px 10px 10px 10px;
+	margin-left: 100px;
+}
+
+.vfab{
+	width: 40%;
+	padding: 25px 10px 10px 10px;
+	margin-right: 100px;
+}
+
+.fabricacion{
+	background: #ba1;
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 50px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 42pt;
+	font-weight: 600;
+}
+
+.fondoprtext{
+	width: 100%;
+	height: 600px;
+	background-image: url('imagen2/procesos.png');
+	background-position-x: center; 
+	background-position-y: center;
+	background-size: cover;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat; 
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+}
+
+.prtext{
+
+	width: 60%;
+	text-shadow: 1px 1px 1px #000;
+	padding-bottom: 20px;
+	padding-top: 100px;
+	padding-left: 100px;
+	margin-top: 0x;
+	background: transparent;
+	opacity: 0.8;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 20pt;
+	font-weight: 600;
+}
+
+.prlist{
+	color: white;
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 50px;
+	margin-left: 30%;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 18pt;
+	width: 400px;
+}
+
+#soplado{
+	opacity: 0.8;
+	background: black;
+	margin: 50px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+#prensado{
+	opacity: 0.8;
+	background: black;
+	margin: 50px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+.back2{
+	font-family: 'Lato';
+	margin-top: 1650px;
+    margin-right: 50px;
+    float: right;
+    color: black;
+    opacity: 0.6;
+    background: grey;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 38pt;
+	border-radius: 500px;
+}
+
+.normativa{
+	text-shadow: 1px 1px 1px #000;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 100px;
+	margin-top: 50px;
+	background: #ba1;
+	opacity: 0.8;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 20pt;
+	font-weight: 600;
+}
+
+.nimg{
+	margin-left: 40px;
+	margin-top: 50px;
+	height: 1920px;
+	background-image: url('imagen2/normativa.png');
+	background-repeat: no-repeat;
+}

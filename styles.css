@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Oswald');
+/* CSS Document 
+font usadas : 
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+body {
+
+	margin: 0;
+}
+/*  Principio de a */
+
+a{
+  color:black;
+  text-decoration: none;
+}
+a:hover{
+  color:orange;
+  text-decoration: none;
+}
+.fondo2{
+  width:1590px;
+  height: 1300px;
+  
+  background: url(imagen/fondo.jpg) no-repeat center center fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         margin: auto;
+}
+
+.texto1 {
+    font-size: 70pt;
+    text-align: center;
+    color: white;
+    margin-top: -92px;
+    padding: 12px 0px 0px 0px;
+   font-family: 'Oswald', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 10pt;
+}
+.texto2 {
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+    margin-top: -138px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 8pt;    
+}
+
+.botton {
+    background-color: #ffffff;
+    color: white;
+    padding: 0px 111px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 38pt;
+    border-radius: 19px;
+}
+.parrafo {
+       margin: auto;
+    width: 990px;
+    font-size: 15pt;
+    text-align: center;
+    background-color: rgba(19, 44, 48, 0.50);
+    padding: 9px 9px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 263.8px;
+
+}
+p { color:white; 
+text-shadow: -3px 2px 17px #000;
+font-family: 'Lato', sans-serif; 
+}
+
+.boton {
+  width: 1590px;
+  margin: auto;
+  margin: 22px 620px;
+}
+h6 {
+  font-size: 30pt;
+color:white;
+   text-shadow: -3px 2px 17px #000;
+   font-family: 'Lato', sans-serif; 
+}
+
+.integrante{
+    margin: -39px 292px;
+}
+
